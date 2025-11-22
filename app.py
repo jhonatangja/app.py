@@ -10,16 +10,28 @@ st.set_page_config(page_title="Diário de Bordo", page_icon="🚛")
 # No sistema final, isso viria de um arquivo ou do Google Sheets.
 db_rotas = {
     'RVD': [
-        {'id': 1, 'desc': 'Montividiu, Sto Antonio, Acreuna...', 'km': 399, 'valor': 478.8},
-        {'id': 2, 'desc': 'Montidividiu, Santa H...', 'km': 299, 'valor': 358.8},
-        {'id': 3, 'desc': 'S. Antonio, Santa Helena...', 'km': 178, 'valor': 213.6},
+        {'id': 1, 'desc': 'Montividiu, Santo Antonio, Acreuna, Santa H. Turverlandia...', 'km': 399, 'valor': 478.80},
+        {'id': 2, 'desc': 'Montidividiu, Santa H. Turverlandia, Porteirao, Maurilandia', 'km': 299, 'valor': 358.80},
+        {'id': 3, 'desc': 'S. Antonio, Santa Helena, Acreuna', 'km': 178, 'valor': 213.60},
+        {'id': 4, 'desc': 'Santa H,Turverlandia, Porteirão e Maurilandia, Castelandia...', 'km': 288, 'valor': 345.60},
+        {'id': 5, 'desc': 'Montidividiu', 'km': 98.6, 'valor': 118.32},
+        {'id': 6, 'desc': 'Santa Helena', 'km': 73, 'valor': 87.60},
+        {'id': 7, 'desc': 'Santo Antonio, Acreúna', 'km': 163, 'valor': 195.60},
+        {'id': 8, 'desc': 'Santa Helena,Turverlandia, Porteirão e Maurilandia', 'km': 198, 'valor': 237.60},
+        {'id': 9, 'desc': 'L. Bauzinho, Ourona, Riverlandia', 'km': 154, 'valor': 184.80},
+        {'id': 10, 'desc': 'Montividiu, Santo Antonio, Acreuna, Santa H. Turverlandia...', 'km': 487, 'valor': 584.40},
+        {'id': 11, 'desc': 'Santo Antonio, Acreuna, Santa H. Turverlandia, Porteirao...', 'km': 303, 'valor': 363.60},
+        {'id': 12, 'desc': 'Santo Antonio, Acreuna, Santa H. Turverlandia, Porteirao...', 'km': 391, 'valor': 469.20},
     ],
     'JTI': [
-        {'id': 1, 'desc': 'Jataí, Rio Verde, Jataí', 'km': 184, 'valor': 239.2},
-        {'id': 2, 'desc': 'Jataí, Mineiros, Jataí', 'km': 216, 'valor': 259.2},
+        {'id': 1, 'desc': 'Jataí, Rio Verde, Jataí', 'km': 184.0, 'valor': 239.2},
+        {'id': 2, 'desc': 'Jataí, Mineiros, Jataí', 'km': 216.0, 'valor': 259.2},
+        {'id': 3, 'desc': 'Jataí, Perôlandia, Mineiros, Portelandia...', 'km': 531.0, 'valor': 637.2},
     ],
     'QUI': [
-        {'id': 1, 'desc': 'Quirinópolis, Rio Verde...', 'km': 221, 'valor': 221.0},
+        {'id': 1, 'desc': 'Quirinópolis, Rio Verde...', 'km': 221.0, 'valor': 221.0},
+        {'id': 2, 'desc': 'Quirinópolis, Paranaiguara...', 'km': 567.0, 'valor': 567.0},
+        {'id': 3, 'desc': 'Quirinópolis, Gouvelândia...', 'km': 105.0, 'valor': 105.0},
     ]
 }
 
